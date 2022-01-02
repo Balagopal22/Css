@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/b2bad68e95.js"></script>
+	<style>
+		table,th,td{border: 1px solid #ccc;
+			text-align: left; color: blue;}
+			table{border-collapse: collapse;
+				width: 100%;}
+				p {text-align: center; font-size: 25px;}
+				p.b{position: absolute;
+					font-size: 16px;
+					padding: 20px;
+					margin:auto;}
+				input[type=text] {position:absolute;
+					top: 3%;right: 1%;width: 10%;float: right;padding: 20px;
+
+                    font-size: 16px;
+                   
+					background-image: url('https://img.icons8.com/ios/2x/search--v1.png' ) ;
+					  background-size: 23px;
+                      background-repeat: no-repeat;
+                      padding:5px 20px 2px 20px;}
+		input[type=text]:hover{background-color: black;
+			         color:red;}	
+			form.a{position: fixed;
+				      top: 25px;left: 10px;
+				       font-size: 16px;}
+					.dot{height: 25px;
+						width: 25px;
+						border-radius: 50%;
+						display: inline-block;
+						background-color:grey;}		
+				form.b{position: static;float: right;padding: 20px;}
+				.dot:hover{background-color: green;}
+				*{box-sizing: border-box;}
+
+				
+				
+	</style>
+	
+</head>
+<body>
+
+<p>Customer<b>Details</b></p>
+	
+		<input type="text" name="search" placeholder="Search..">
+	<table>
+		<tr>
+			<th>#</th>
+			<th>Name</th>
+			<th>Address</th>
+			<th>City</th>
+			<th>Pincode</th>
+			<th>Country</th>
+			<th>Actions</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Thomas Hardy</td>
+			<td>89 chiaroscuro Rd</td>
+			<td>Portland</td>
+			<td>97219</td>
+			<td>USA</td>
+			<td ><i class="fas fa-eye" style="color: blue"></i>
+				<i class="fas fa-pencil-alt" style="color: yellow" ></i>
+					<i class="fas fa-trash-alt" style="color: red"></i>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Rajith</td>
+			<td>Kizhakkepurakkal</td>
+			<td>Ottapalam</td>
+			<td>68254</td>
+			<td>India</td>
+			<td ><i class="fas fa-eye" style="color: blue"></i>
+				<i class="fas fa-pencil-alt" style="color: yellow" ></i>
+					<i class="fas fa-trash-alt" style="color: red"></i>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Subi</td>
+			<td>Ambalakulam</td>
+			<td>Ottapalam</td>
+			<td>52416</td>
+			<td>India</td>
+			<td ><i class="fas fa-eye" style="color: blue"></i>
+				<i class="fas fa-pencil-alt" style="color: yellow" ></i>
+					<i class="fas fa-trash-alt" style="color: red"></i>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Kapra</td>
+			<td>Kayamkulam</td>
+			<td>Aalapuzha</td>
+			<td>12453</td>
+			<td>India</td>
+			<td ><i class="fas fa-eye" style="color: blue"></i>
+				<i class="fas fa-pencil-alt" style="color: yellow" ></i>
+					<i class="fas fa-trash-alt" style="color: red"></i>
+			</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Amjad</td>
+			<td>Mangada</td>
+			<td>Malapuram</td>
+			<td>32458</td>
+			<td>India</td>
+			<td ><i class="fas fa-eye" style="color: blue"></i>
+				<i class="fas fa-pencil-alt" style="color: yellow" ></i>
+					<i class="fas fa-trash-alt" style="color: red"></i>
+			</td>
+		</tr>
+
+</table>
+<form class="a">
+	<label>Show</label>
+	<select>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option selected>5</option>
+	</select>
+	<label>entities</label>
+</form>
+<p class="b">Showing <b>5</b>out of <b>25</b>entities</p>
+<form class="b" style="text-align: center;">
+	<label>Previous</label>
+	<span class="dot">1</span>
+	<span class="dot">2</span>
+	<span class="dot">3</span>
+	<span class="dot">4</span>
+	<span class="dot">5</span>
+	<label>Next</label>
+</form>
+
+</body>
+</html>
